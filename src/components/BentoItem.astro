@@ -1,11 +1,11 @@
 ---
 interface Props {
-  class?: string
-  title: string
-  subtitle?: string
+  class?: string;
+  title: string;
+  subtitle?: string;
 }
 
-const { title, subtitle } = Astro.props
+const { title, subtitle } = Astro.props;
 ---
 
 <article
@@ -18,11 +18,12 @@ const { title, subtitle } = Astro.props
   shadow-inner shadow-white/10
   overflow-hidden
   group
+  rounded-md
 `}
 >
   <div
     class="absolute bottom-0 top-0 z-10 h-full w-full
-    bg-gradient-to-b from-transparent from-40% via-[#151836]/50 to-[#151836]/80"
+    bg-gradient-to-b from-transparent from-40% via-[#151836]/50 to-[#151836]/80 rounded-md"
   >
   </div>
 
