@@ -30,9 +30,9 @@ export const showDefaultLang = false;
 export const ui = {
 	es: {
 		'nav.inicio': 'Inicio',
-		'nav.vota': 'Vota',
-		'nav.info': 'Información',
-		'nav.archivo': 'Archivo',
+		'nav.vota': 'QUIENES SOMOS',
+		
+		'nav.archivo': 'CONTÁCTANOS',
 		'nav.legal': 'Aviso Legal',
 		'nav.privacidad': 'Privacidad',
 		'nav.cookies': 'Cookies',
